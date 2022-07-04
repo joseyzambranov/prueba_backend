@@ -28,7 +28,7 @@ Contecte us usuario de mongodb atlas https://www.mongodb.com/atlas/database
 <td class="leafygreen-ui-7razhx">mongodb+srv://&lt;my-name&gt;:&lt;password&gt;@cluster0.tjbqj.mongodb.net/?retryWrites=true&amp;w=majority</td> 
 
 
-cree un archivo .env gregue MONGO_CONNECT = <su-usuario-mongodb-atlas>
+cree un archivo .env gregue MONGO_CONNECT = su-usuario-mongodb-atlas
 
 Corra la aplicacion:
 
@@ -39,7 +39,7 @@ Para llamar todos los productos realice una peticion GET al http://localhost:500
 
 Para llamar los productos por categoría ingrese en el body "category":"footwear" y realice la peticiónET al http://localhost:5000/api/product:
 
-![Screenshot](imgget.png)
+![Screenshot](imgget.jng)
 
 Para crear un nuevo productos ingrese en el body un objeto con , title, desc, categories, price y realice una peticion POST al http://localhost:5000/api/product 
 
