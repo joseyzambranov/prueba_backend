@@ -8,7 +8,7 @@ El proyecto registra , muestra los productos y filtra las categorías.
 
 tegnologias: 
 
-Es desarrollado con node.js y express la base de datos es mongodb atlas. Se modeló la base de datos con mongoose
+Está desarrollado con node.js y express la base de datos es mongodb atlas. Se modeló la base de datos con mongoose
 
 Configuración de comandos:
 
@@ -22,7 +22,7 @@ Clone el repositorio e instale las dependencias:
 
 Acceso localmente:
 
-Contecte us usuario de mongodb atlas https://www.mongodb.com/atlas/database
+Conecte su usuario de mongodb atlas https://www.mongodb.com/atlas/database
 
 
 <td class="leafygreen-ui-7razhx">mongodb+srv://&lt;my-name&gt;:&lt;password&gt;@cluster0.tjbqj.mongodb.net/?retryWrites=true&amp;w=majority</td> 
@@ -35,13 +35,13 @@ Corra la aplicacion:
 <pre>npm start</pre>
 
 
-Para llamar todos los productos realice una peticion GET al http://localhost:5000/api/product
+Para llamar todos los productos realice una petición GET al http://localhost:5000/api/product
 
-Para llamar los productos por categoría ingrese en el body "category":"footwear" y realice la peticiónET al http://localhost:5000/api/product:
+Para llamar los productos por categoría ingrese en el body "category":"footwear" y realice la petición al http://localhost:5000/api/product:
 
 ![Screenshot](imgget.png)
 
-Para crear un nuevo productos ingrese en el body un objeto con , title, desc, categories, price y realice una peticion POST al http://localhost:5000/api/product 
+Para crear un nuevo productos ingrese en el body un objeto con , title, desc, categories, price y realice una petición POST al http://localhost:5000/api/product 
 
 ![Screenshot](imgpost.png)
 
