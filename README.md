@@ -39,7 +39,7 @@ Para llamar todos los productos realice una peticion GET al http://localhost:500
 
 Para llamar los productos por categoría ingrese en el body "category":"footwear" y realice la peticiónET al http://localhost:5000/api/product:
 
-![Screenshot](imgget.jng)
+![Screenshot](imgget.png)
 
 Para crear un nuevo productos ingrese en el body un objeto con , title, desc, categories, price y realice una peticion POST al http://localhost:5000/api/product 
 
